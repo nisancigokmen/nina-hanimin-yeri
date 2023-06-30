@@ -1,432 +1,346 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="shortcut icon" href="favicons.png" type="image/x-icon" />
-    <title>Nina Hanım'ın Yeri</title>
-  </head>
-  <body> 
-    <!--Header-->
 
-    <div id="header">
-      <div id="menu_mobile">
-        <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
-          ><img src="/img/menu.png" alt="" class="menu-img"
-        /></span>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="shortcut icon" href="favicons.png" type="image/x-icon" />
+  <title>Nina Hanım'ın Yeri</title>
+</head>
 
-      <div id="header_title">
-        <h1>Nina Hanım'ın Yeri</h1>
-      </div>
+<body>
+  <!--Header-->
 
-      <div id="header_menu">
-        <a href="/page/menü-nina-hanimin-yeri.pdf" target="_blank"
-          ><button class="header-pdf">MENÜ</button></a
-        >
-      </div>
+  <div id="header">
+    <div id="menu_mobile">
+      <span style="font-size: 30px; cursor: pointer" onclick="openNav()"><img src="/img/menu.png" alt=""
+          class="menu-img" /></span>
     </div>
 
-    <div id="header-mobile">
-      <div id="menu_mobile">
-        <span style="font-size: 24px; cursor: pointer" onclick="openNav()"
-          ><img
-            src="/img/menu.png"
-            alt=""
-            class="menu-img"
-            width="36px"
-            height="36px"
-        /></span>
-      </div>
-
-      <div id="header_title">
-        <h1>Nina Hanım'ın Yeri</h1>
-      </div>
-
-      <div id="header_menu">
-        <a href="/page/menü-nina-hanimin-yeri.pdf" target="_blank"
-          ><button class="header-pdf">MENÜ</button></a
-        >
-      </div>
+    <div id="header_title">
+      <h1>Nina Hanım'ın Yeri</h1>
     </div>
 
-    <div id="myNav" class="overlay">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-        >&times;</a
-      >
+    <div id="header_menu">
+      <a href="/page/menü-nina-hanimin-yeri.pdf" target="_blank"><button class="header-pdf">MENÜ</button></a>
+    </div>
+  </div>
 
-      <div class="overlay-content">
-        <a href="#">Ana Sayfa</a>
-        <a href="#menu">Menü</a>
-        <a href="#maps">Konum</a>
-        <a href="#contact">İletişim</a>
-      </div>
-
-      <div class="overlay-content2">
-        <a href="https://www.instagram.com/nina_hanimin_yeri/" target="_blank">
-          <img src="/img/instagram-icon.png" alt=""
-        /></a>
-        <a
-          href="https://www.facebook.com/people/Nina-Han%C4%B1m%C4%B1n-Yeri/100080846071738/"
-          target="_blank"
-          ><img src="/img/facebook-icon.png" alt="" />
-        </a>
-        <a href="mailto:ninahaniminyeri@gmail.com" target="_blank">
-          <img src="/img/mail-icon.png" alt=""
-        /></a>
-        <a
-          href="https://api.whatsapp.com/send?phone=905345230832"
-          target="_blank"
-        >
-          <img src="/img/whatsapp-icon.png" alt="" />
-        </a>
-      </div>
+  <div id="header-mobile">
+    <div id="menu_mobile">
+      <span style="font-size: 24px; cursor: pointer" onclick="openNav()"><img src="/img/menu.png" alt=""
+          class="menu-img" width="36px" height="36px" /></span>
     </div>
 
-    <!--Home-->
-<br><br>
+    <div id="header_title">
+      <h1>Nina Hanım'ın Yeri</h1>
+    </div>
 
-    <!--Menu-->
+    <div id="header_menu">
+      <a href="/page/menü-nina-hanimin-yeri.pdf" target="_blank"><button class="header-pdf">MENÜ</button></a>
+    </div>
+  </div>
 
-    <div id="menu">
-      <div id="menu_title">
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <div class="overlay-content">
+      <a href="#">Ana Sayfa</a>
+      <a href="#menu">Menü</a>
+      <a href="#maps">Konum</a>
+      <a href="#contact">İletişim</a>
+    </div>
+
+    <div class="overlay-content2">
+      <a href="https://www.instagram.com/nina_hanimin_yeri/" target="_blank">
+        <img src="/img/instagram-icon.png" alt="" /></a>
+      <a href="https://www.facebook.com/people/Nina-Han%C4%B1m%C4%B1n-Yeri/100080846071738/" target="_blank"><img
+          src="/img/facebook-icon.png" alt="" />
+      </a>
+      <a href="mailto:ninahaniminyeri@gmail.com" target="_blank">
+        <img src="/img/mail-icon.png" alt="" /></a>
+      <a href="https://api.whatsapp.com/send?phone=905345230832" target="_blank">
+        <img src="/img/whatsapp-icon.png" alt="" />
+      </a>
+    </div>
+  </div>
+
+  <!--Home-->
+  <br><br>
+
+  <!--Menu-->
+
+  <div id="menu">
+    <div id="menu_title">
+      <ul>
+        <li><button id="beeef-menu">IZGARA ÇEŞİTLERİ</button></li>
+        <li><button id="food-menu">YEMEK-ÇORBA ÇEŞİTLERİ</button></li>
+        <li><button id="drink-menu">İÇECEK ÇEŞİTLERİ</button></li>
+      </ul>
+    </div>
+
+    <div id="menu_screen">
+      <div id="menu-screen1-1">
         <ul>
-          <li><button id="beeef-menu">IZGARA ÇEŞİTLERİ</button></li>
-          <li><button id="food-menu">YEMEK-ÇORBA ÇEŞİTLERİ</button></li>
-          <li><button id="drink-menu">İÇECEK ÇEŞİTLERİ</button></li>
+          <li>
+            <img src="/img/kofte_1.jpg" alt="" width="210px" height="210px" />
+            <p>Köfte Porsiyon</p>
+            <b>150 TL</b>
+          </li>
+
+          <li>
+            <img src="/img/köfte.jpg" alt="" width="210px" height="210px" />
+            <p>Köfte Ekmek</p>
+            <b>75 TL</b>
+          </li>
+
+          <li>
+            <img src="/img/tavuk-doner-porsiyon.jpg" alt="" width="210px" height="210px" />
+            <p>Tavuk Porsiyon</p>
+            <b>90 TL</b>
+          </li>
+        </ul>
+
+        <br />
+
+        <ul>
+          <li>
+            <img src="/img/ndzf-hero.jpg" alt="" width="210px" height="210px" />
+            <p>Tavuk Ekmek</p>
+            <b>45 TL</b>
+          </li>
+
+          <li>
+            <img src="/img/sucuk.jpeg" alt="" width="210px" height="210px" />
+            <p>Sucuk Porsiyon</p>
+            <b>140 TL</b>
+          </li>
+
+          <li>
+            <img src="/img/Sucuk-Ekmek-1000x1000.jpg" alt="" width="210px" height="210px" />
+            <p>Sucuk Ekmek</p>
+            <b>70 TL</b>
+          </li>
+        </ul>
+
+
+        <ul>
+          <li>
+            <img src="/img/dönerrr.jpg" alt="" width="210px" height="210px" />
+            <p>Döner Ekmek</p>
+            <b>40 TL</b>
+          </li>
+
+          <li>
+            <img src="/img/9667605692466.jpg" alt="" width="210px" height="210px" />
+            <p>Pilav Üstü Tavuk Döner</p>
+            <b>80 TL</b>
+          </li>
+
         </ul>
       </div>
 
-      <div id="menu_screen">
-        <div id="menu-screen1-1">
-          <ul>
-            <li>
-              <img src="/img/kofte_1.jpg" alt="" width="210px" height="210px" />
-              <p>Köfte Porsiyon</p>
-              <b>140 TL</b>
-            </li>
+      <div id="menu-screen1-2">
+        <ul>
+          <li>
+            <img src="/img/tavuk-pilav.jpg" alt="" width="210px" height="210px" />
+            <p>Tavuk Pilav</p>
+            <b>50 TL</b>
+          </li>
 
-            <li>
-              <img src="/img/köfte.jpg" alt="" width="210px" height="210px" />
-              <p>Köfte Ekmek</p>
-              <b>70 TL</b>
-            </li>
+          <li>
+            <img src="/img/mercimek-çorbası.jpg" alt="" width="210px" height="210px" />
+            <p>Mercimek Çorbası</p>
+            <b>30 TL</b>
+          </li>
 
-            <li>
-              <img
-                src="/img/tavuk-doner-porsiyon.jpg"
-                alt=""
-                width="210px"
-                height="210px"
-              />
-              <p>Tavuk Porsiyon</p>
-              <b>90 TL</b>
-            </li>
-          </ul>
+          <li>
+            <img src="/img/işkembe-corbası.webp" alt="" width="210px" height="210px" />
+            <p>İşkembe Çorbası</p>
+            <b>50 TL</b>
+          </li>
+        </ul>
 
-          <br />
+        <br />
 
-          <ul>
-            <li>
-              <img
-                src="/img/ndzf-hero.jpg"
-                alt=""
-                width="210px"
-                height="210px"
-              />
-              <p>Tavuk Ekmek</p>
-              <b>45 TL</b>
-            </li>
+        <ul>
+          <li>
+            <img src="/img/kelle-paç.jpg" alt="" width="210px" height="210px" />
+            <p>Kelle Paça Çorbası</p>
+            <b>50 TL</b>
+          </li>
 
-            <li>
-              <img src="/img/sucuk.jpeg" alt="" width="210px" height="210px" />
-              <p>Sucuk Porsiyon</p>
-              <b>130 TL</b>
-            </li>
+          <li>
+            <img src="/img/tost.jpg" alt="" width="210px" height="210px" />
+            <p>Sucuklu-Kaşarlı Tost</p>
+            <b>60 TL</b>
+          </li>
 
-            <li>
-              <img
-                src="/img/Sucuk-Ekmek-1000x1000.jpg"
-                alt=""
-                width="210px"
-                height="210px"
-              />
-              <p>Sucuk Ekmek</p>
-              <b>65 TL</b>
-            </li>
-          </ul>
+          <li>
+            <img src="/img/menemne.jpg" alt="" width="210px" height="210px" />
+            <p>Menemen (1 Kişi)</p>
+            <b>60 TL</b>
+          </li>
+        </ul>
+      </div>
 
+      <div id="menu-screen1-3">
+        <ul>
+          <li>
+            <img src="/img/coca-cola--7c32.jpg" alt="" width="210px" height="210px" />
+            <p>Coco-Cola</p>
+            <b>30 TL</b>
+          </li>
 
-          <ul>
-            <li>
-              <img
-                src="/img/dönerrr.jpg"
-                alt=""
-                width="210px"
-                height="210px"
-              />
-              <p>Döner Ekmek</p>
-              <b>40 TL</b>
-            </li>
+          <li>
+            <img src="/img/pepsi-250-ml-can-908402-1650x1650.jpg" alt="" width="210px" height="210px" />
+            <p>Pepsi</p>
+            <b>30 TL</b>
+          </li>
 
-            <li>
-              <img src="/img/9667605692466.jpg" alt="" width="210px" height="210px" />
-              <p>Pilav Üstü Tavuk Döner</p>
-              <b>80 TL</b>
-            </li>
+          <li>
+            <img src="/img/meyvesuyu.jpeg" alt="" width="210px" height="210px" />
+            <p>Meyve Suyu</p>
+            <b>30 TL</b>
+          </li>
+        </ul>
 
-          </ul>
-        </div>
+        <br />
 
-        <div id="menu-screen1-2">
-          <ul>
-            <li>
-              <img
-                src="/img/tavuk-pilav.jpg"
-                alt=""
-                width="210px"
-                height="210px"
-              />
-              <p>Tavuk Pilav</p>
-              <b>50 TL</b>
-            </li>
+        <ul>
+          <li>
+            <img src="/img/ayran.jpg" alt="" width="210px" height="210px" />
+            <p>Ayran</p>
+            <b>15 TL</b>
+          </li>
 
-            <li>
-              <img
-                src="/img/mercimek-çorbası.jpg"
-                alt=""
-                width="210px"
-                height="210px"
-              />
-              <p>Mercimek Çorbası</p>
-              <b>30 TL</b>
-            </li>
+          <li>
+            <img src="/img/gazoz.jpg" alt="" width="210px" height="210px" />
+            <p>Gazoz</p>
+            <b>30 TL</b>
+          </li>
 
-            <li>
-              <img
-                src="/img/işkembe-corbası.webp"
-                alt=""
-                width="210px"
-                height="210px"
-              />
-              <p>İşkembe Çorbası</p>
-              <b>50 TL</b>
-            </li>
-          </ul>
-
-          <br />
-
-          <ul>
-            <li>
-              <img
-                src="/img/kelle-paç.jpg"
-                alt=""
-                width="210px"
-                height="210px"
-              />
-              <p>Kelle Paça Çorbası</p>
-              <b>50 TL</b>
-            </li>
-
-            <li>
-              <img src="/img/tost.jpg" alt="" width="210px" height="210px" />
-              <p>Sucuklu-Kaşarlı Tost</p>
-              <b>60 TL</b>
-            </li>
-
-            <li>
-              <img src="/img/menemne.jpg" alt="" width="210px" height="210px" />
-              <p>Menemen (1 Kişi)</p>
-              <b>60 TL</b>
-            </li>
-          </ul>
-        </div>
-
-        <div id="menu-screen1-3">
-          <ul>
-            <li>
-              <img
-                src="/img/coca-cola--7c32.jpg"
-                alt=""
-                width="210px"
-                height="210px"
-              />
-              <p>Coco-Cola</p>
-              <b>30 TL</b>
-            </li>
-
-            <li>
-              <img
-                src="/img/pepsi-250-ml-can-908402-1650x1650.jpg"
-                alt=""
-                width="210px"
-                height="210px"
-              />
-              <p>Pepsi</p>
-              <b>30 TL</b>
-            </li>
-
-            <li>
-              <img
-                src="/img/meyvesuyu.jpeg"
-                alt=""
-                width="210px"
-                height="210px"
-              />
-              <p>Meyve Suyu</p>
-              <b>30 TL</b>
-            </li>
-          </ul>
-
-          <br />
-
-          <ul>
-            <li>
-              <img src="/img/ayran.jpg" alt="" width="210px" height="210px" />
-              <p>Ayran</p>
-              <b>15 TL</b>
-            </li>
-
-            <li>
-              <img src="/img/gazoz.jpg" alt="" width="210px" height="210px" />
-              <p>Gazoz</p>
-              <b>30 TL</b>
-            </li>
-
-            <li>
-              <img src="/img/şalgam.jpg" alt="" width="210px" height="210px" />
-              <p>Şalgam</p>
-              <b>15 TL</b>
-            </li>
-          </ul>
-        </div>
+          <li>
+            <img src="/img/şalgam.jpg" alt="" width="210px" height="210px" />
+            <p>Şalgam</p>
+            <b>15 TL</b>
+          </li>
+        </ul>
       </div>
     </div>
+  </div>
 
-    <!--Maps-->
+  <!--Maps-->
 
-    <div id="maps">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.7105857806328!2d27.984747976514313!3d41.87757286544652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a0e7437946ad07%3A0xa81d7912a026814f!2zTmluYSBIYW7EsW3EsW4gWWVyaQ!5e0!3m2!1str!2str!4v1672600177384!5m2!1str!2str"
-        height="520"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
-    </div>
+  <div id="maps">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.7105857806328!2d27.984747976514313!3d41.87757286544652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a0e7437946ad07%3A0xa81d7912a026814f!2zTmluYSBIYW7EsW3EsW4gWWVyaQ!5e0!3m2!1str!2str!4v1672600177384!5m2!1str!2str"
+      height="520" style="border: 0" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
 
-    <!--Contact-->
+  <!--Contact-->
 
-    <div id="contact">
-      <div id="contact_infos">
-        <div id="contact_infos1">
-          <ul>
-            <li><h2>Bizimle İletişime Geçin!</h2></li>
-            <li>
-              <a href="https://goo.gl/maps/LU1Rpd5E3qoD8bns5" target="_blank"
-                ><img src="/img/maps-icon.png" alt="" />Deniz, Cumhuriyet
-                Meydanı No:8, 39650
-              </a>
-            </li>
-            <li>
-              <a href="mailto:ninahaniminyeri@gmail.com" target="_blank"
-                ><img
-                  src="/img/mail-icons.png"
-                  alt=""
-                />ninahaniminyeri@gmail.com</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://api.whatsapp.com/send?phone=905345230832"
-                target="_blank"
-                ><img src="/img/call-icon.png" alt="" />+90 534 523 08 32</a
-              >
-            </li>
-          </ul>
-        </div>
+  <div id="contact">
+    <div id="contact_infos">
+      <div id="contact_infos1">
+        <ul>
+          <li>
+            <h2>Bizimle İletişime Geçin!</h2>
+          </li>
+          <li>
+            <a href="https://goo.gl/maps/LU1Rpd5E3qoD8bns5" target="_blank"><img src="/img/maps-icon.png"
+                alt="" />Deniz, Cumhuriyet
+              Meydanı No:8, 39650
+            </a>
+          </li>
+          <li>
+            <a href="mailto:ninahaniminyeri@gmail.com" target="_blank"><img src="/img/mail-icons.png"
+                alt="" />ninahaniminyeri@gmail.com</a>
+          </li>
+          <li>
+            <a href="https://api.whatsapp.com/send?phone=905345230832" target="_blank"><img src="/img/call-icon.png"
+                alt="" />+90 534 523 08 32</a>
+          </li>
+        </ul>
+      </div>
 
-        <div id="contact_infos2">
-          <ul>
-            <li><h2>Çalışma Saatlerimiz</h2></li>
-            <li><b>Pazartesi</b> 09:00–02:00</li>
-            <li><b>Salı</b> 09:00–02:00</li>
-            <li><b>Çarşamba</b> 09:00–02:00</li>
-            <li><b>Perşembe</b> 09:00–02:00</li>
-            <li><b>Cuma</b> 09:00–02:00</li>
-            <li><b>Cumartesi</b> 09:00–02:00</li>
-            <li><b>Pazar</b> 09:00–02:00</li>
-          </ul>
-        </div>
+      <div id="contact_infos2">
+        <ul>
+          <li>
+            <h2>Çalışma Saatlerimiz</h2>
+          </li>
+          <li><b>Pazartesi</b> 09:00–02:00</li>
+          <li><b>Salı</b> 09:00–02:00</li>
+          <li><b>Çarşamba</b> 09:00–02:00</li>
+          <li><b>Perşembe</b> 09:00–02:00</li>
+          <li><b>Cuma</b> 09:00–02:00</li>
+          <li><b>Cumartesi</b> 09:00–02:00</li>
+          <li><b>Pazar</b> 09:00–02:00</li>
+        </ul>
       </div>
     </div>
+  </div>
 
-    <div id="contact_social_media">
-      <ul>
-        <li>
-          <a href="https://www.instagram.com/nina_hanimin_yeri/" target="_blank"
-            ><img src="/img/contact-instagram.png" alt=""
-          /></a>
-        </li>
-        <li>
-          <a
-            href="https://www.facebook.com/people/Nina-Han%C4%B1m%C4%B1n-Yeri/100080846071738/"
-            target="_blank"
-            ><img src="/img/contact-facebook.png" alt=""
-          /></a>
-        </li>
-        <li>
-          <a href="https://nina-hanimin-yeri.com/"
-            ><img src="/img/contact-web.png" alt="" target="_blank"
-          /></a>
-        </li>
-      </ul>
-    </div>
+  <div id="contact_social_media">
+    <ul>
+      <li>
+        <a href="https://www.instagram.com/nina_hanimin_yeri/" target="_blank"><img src="/img/contact-instagram.png"
+            alt="" /></a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/people/Nina-Han%C4%B1m%C4%B1n-Yeri/100080846071738/" target="_blank"><img
+            src="/img/contact-facebook.png" alt="" /></a>
+      </li>
+      <li>
+        <a href="https://nina-hanimin-yeri.com/"><img src="/img/contact-web.png" alt="" target="_blank" /></a>
+      </li>
+    </ul>
+  </div>
 
-    <!--C ınfos-->
+  <!--C ınfos-->
 
-    <div id="c-infos">
-      <ul>
-        <li>
-          2023 Nina Hanım'ın Yeri |
-          <a href="https://nisancisoftware.com/" target="_blank">
-            By Nisanci Software</a
-          >
-        </li>
-        <li>2023 © Nina Hanım'ın Yeri. Tüm hakları saklıdır.</li>
-      </ul>
-    </div>
+  <div id="c-infos">
+    <ul>
+      <li>
+        2023 Nina Hanım'ın Yeri |
+        <a href="https://nisancisoftware.com/" target="_blank">
+          By Nisanci Software</a>
+      </li>
+      <li>2023 © Nina Hanım'ın Yeri. Tüm hakları saklıdır.</li>
+    </ul>
+  </div>
 
-    <script>
-      const beefClick = document.querySelector("#beeef-menu");
-      const foodClick = document.querySelector("#food-menu");
-      const drinkClick = document.querySelector("#drink-menu");
+  <script>
+    const beefClick = document.querySelector("#beeef-menu");
+    const foodClick = document.querySelector("#food-menu");
+    const drinkClick = document.querySelector("#drink-menu");
 
-      const menuBeefPage = document.querySelector("#menu-screen1-1");
-      const menuFoodPage = document.querySelector("#menu-screen1-2");
-      const menuDrinkClick = document.querySelector("#menu-screen1-3");
+    const menuBeefPage = document.querySelector("#menu-screen1-1");
+    const menuFoodPage = document.querySelector("#menu-screen1-2");
+    const menuDrinkClick = document.querySelector("#menu-screen1-3");
 
-      beefClick.addEventListener("click", function () {
-        menuBeefPage.style.display = "block";
-        menuFoodPage.style.display = "none";
-        menuDrinkClick.style.display = "none";
-      });
+    beefClick.addEventListener("click", function () {
+      menuBeefPage.style.display = "block";
+      menuFoodPage.style.display = "none";
+      menuDrinkClick.style.display = "none";
+    });
 
-      foodClick.addEventListener("click", function () {
-        menuBeefPage.style.display = "none";
-        menuFoodPage.style.display = "block";
-        menuDrinkClick.style.display = "none";
-      });
+    foodClick.addEventListener("click", function () {
+      menuBeefPage.style.display = "none";
+      menuFoodPage.style.display = "block";
+      menuDrinkClick.style.display = "none";
+    });
 
-      drinkClick.addEventListener("click", function () {
-        menuBeefPage.style.display = "none";
-        menuFoodPage.style.display = "none";
-        menuDrinkClick.style.display = "block";
-      });
-    </script>
-    <script src="/js/main.js"></script>
-  </body>
+    drinkClick.addEventListener("click", function () {
+      menuBeefPage.style.display = "none";
+      menuFoodPage.style.display = "none";
+      menuDrinkClick.style.display = "block";
+    });
+  </script>
+  <script src="/js/main.js"></script>
+</body>
+
 </html>
