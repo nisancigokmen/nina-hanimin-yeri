@@ -1,8 +1,6 @@
-
 body {
   margin: 0px;
   border: 0px;
-
 }
 
 /*-----------DESKTOP DESGIN------------*/
@@ -10,14 +8,14 @@ body {
 #header {
   width: 100%;
   height: auto;
-  background-color: #002435;
+  background-color: #f34723;
   color: #fff;
   display: flex;
   justify-content: space-around;
   position: fixed;
   padding-top: 8px;
   padding-bottom: 8px;
-margin: 0px;
+  margin: 0px;
 }
 
 #menu {
@@ -25,10 +23,7 @@ margin: 0px;
   padding-bottom: 96px;
   width: 100%;
   height: auto;
-
 }
-
-
 
 #menu_title {
   width: 80%;
@@ -36,7 +31,7 @@ margin: 0px;
   margin-left: 210px;
   padding-top: 12px;
   padding-bottom: 12px;
-  background-color: #002434;
+  background-color: #f34723;
   border-radius: 12px;
 }
 
@@ -54,7 +49,7 @@ margin: 0px;
   cursor: pointer;
   width: 100%;
   height: 42px;
-  background-color: #002435;
+  background-color: #f34723;
   border: 1px solid #fff;
   color: #fff;
 }
@@ -260,7 +255,7 @@ margin: 0px;
 #contact {
   width: 100%;
   height: auto;
-  background-color: #00151f;
+  background-color: #f34723;
   padding-bottom: 32px;
 }
 
@@ -329,7 +324,7 @@ margin: 0px;
 #contact_social_media {
   width: 100%;
   height: auto;
-  background-color: #000f16;
+  background-color: #f34723;
   padding-top: 12px;
   padding-bottom: 12px;
 }
@@ -350,7 +345,7 @@ margin: 0px;
 #c-infos {
   width: 100%;
   height: auto;
-  background-color: #00151f;
+  background-color: #d02b0a;
   color: #fff;
   font-size: 19px;
   padding-top: 12px;
@@ -360,7 +355,7 @@ margin: 0px;
 }
 #c-infos a {
   text-decoration: none;
-  color: #00a5f1;
+  color: #fff;
 }
 #c-infos ul {
   display: flex;
@@ -371,7 +366,6 @@ margin: 0px;
   list-style: none;
 }
 
-
 #header-mobile {
   display: none;
 }
@@ -379,8 +373,6 @@ margin: 0px;
 /*-----------MOBILE DESGIN------------*/
 
 @media only screen and (max-width: 992px) {
-
-
   #header-mobile {
     display: none;
   }
@@ -393,7 +385,7 @@ margin: 0px;
     display: block;
     width: 100%;
     height: auto;
-    background-color: #002435;
+    background-color: #f34723;
     color: #fff;
     display: flex;
     justify-content: space-around;
@@ -412,14 +404,14 @@ margin: 0px;
     cursor: pointer;
     width: 120%;
     height: 32px;
-    background-color: #002435;
+    background-color: #f34723;
     border: 1px solid #fff;
     color: #fff;
   }
 
   #header_menu button:hover {
     background-color: #fff;
-    color: #002435;
+    color: #f34723;
     border: 1px solid #fff;
   }
 
@@ -429,7 +421,7 @@ margin: 0px;
     margin-left: 34px;
     padding-top: 6px;
     padding-bottom: 6px;
-    background-color: #002434;
+    background-color: #f34723;
     border-radius: 8px;
   }
 
@@ -441,6 +433,7 @@ margin: 0px;
   #menu_title ul li {
     border-right: 1px solid #fff;
     list-style: none;
+
     font-family: Poppins-ExtraBoldItalic;
   }
 
@@ -449,14 +442,14 @@ margin: 0px;
     cursor: pointer;
     width: 100%;
     height: 46px;
-    background-color: #002435;
+    background-color: #f34723;
     border: none;
     color: #fff;
   }
 
   #menu_title button:hover {
     background-color: #fff;
-    color: #002435;
+    color: #f34723;
     border: 1px solid #fff;
   }
 
@@ -477,13 +470,12 @@ margin: 0px;
   }
 
   @font-face {
-    font-family:Poppins-Bold;
+    font-family: Poppins-Bold;
     src: url("/public/fonts/Poppins-Bold.ttf");
   }
 
-
   @font-face {
-    font-family:Poppins-Light ;
+    font-family: Poppins-Light;
     src: url("/public/fonts/Poppins-Light.ttf");
   }
 
@@ -494,12 +486,12 @@ margin: 0px;
 
   #menu-screen1-1 p {
     font-size: 16px;
-    font-family:Poppins-Light ;
+    font-family: Poppins-Light;
   }
 
   #menu-screen1-1 b {
     font-size: 16px;
-    font-family:Poppins-Bold;
+    font-family: Poppins-Bold;
   }
   #menu-screen1-1 ul li {
     list-style: none;
@@ -529,12 +521,12 @@ margin: 0px;
 
   #menu-screen1-2 p {
     font-size: 16px;
-    font-family:Poppins-Light ;
+    font-family: Poppins-Light;
   }
 
   #menu-screen1-2 b {
     font-size: 16px;
-    font-family:Poppins-Bold;
+    font-family: Poppins-Bold;
   }
   #menu-screen1-2 ul li {
     list-style: none;
@@ -564,12 +556,12 @@ margin: 0px;
 
   #menu-screen1-3 p {
     font-size: 16px;
-    font-family:Poppins-Light;
+    font-family: Poppins-Light;
   }
 
   #menu-screen1-3 b {
     font-size: 16px;
-    font-family:Poppins-Bold;
+    font-family: Poppins-Bold;
   }
   #menu-screen1-3 ul li {
     list-style: none;
@@ -586,7 +578,7 @@ margin: 0px;
   #contact {
     width: 100%;
     height: auto;
-    background-color: #00151f;
+    background-color: #d13110;
     padding-bottom: 32px;
   }
 
@@ -657,7 +649,7 @@ margin: 0px;
   #contact_social_media {
     width: 100%;
     height: auto;
-    background-color: #000f16;
+    background-color: #d13110;
     padding-top: 12px;
     padding-bottom: 12px;
   }
@@ -683,7 +675,7 @@ margin: 0px;
   #c-infos {
     width: 100%;
     height: auto;
-    background-color: #00151f;
+    background-color: #d13110;
     color: #fff;
     font-size: 16px;
     padding-top: 12px;
@@ -693,7 +685,7 @@ margin: 0px;
   }
   #c-infos a {
     text-decoration: none;
-    color: #00a5f1;
+    color: #fff;
   }
   #c-infos ul {
     display: flex;
